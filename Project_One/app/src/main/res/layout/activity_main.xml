@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/icecream"
+        android:id="@+id/imageView"
+        android:scaleType="centerCrop"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"/>
+    <TextView
+        android:id="@+id/text"
+        android:text="CUPCAKES AND ICECREAM PARLOUR"
+        android:textAlignment="center"
+        android:textColor="#922B21"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_margin="10dp"
+        android:fontFamily="casual"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/imageView"/>
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/arrow"
+        android:id="@+id/img"
+        android:layout_below="@id/text"
+        android:layout_margin="5dp" />
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Icecream,Pastries,Cupcake"
+        android:layout_toRightOf="@+id/img"
+        android:fontFamily="monospace"
+        android:layout_below="@id/text"
+        android:textColor="#CD6155"
+        android:layout_margin="10dp"
+        android:textSize="20sp"/>
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/arrow"
+        android:id="@+id/img1"
+        android:layout_below="@id/text2"
+        android:layout_margin="5dp" />
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Available in all Flavors."
+        android:fontFamily="monospace"
+        android:layout_toRightOf="@+id/img1"
+        android:layout_below="@id/text2"
+        android:textColor="#CD6155"
+        android:layout_margin="10dp"
+        android:textSize="20sp"/>
+    <ImageView
+        android:layout_width="35dp"
+        android:id="@+id/img2"
+        android:layout_height="35dp"
+        android:src="@drawable/arrow"
+        android:layout_below="@id/text3"
+        android:layout_margin="5dp" />
+    <TextView
+        android:id="@+id/text5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:text="Pick-up and Deleivery. "
+        android:layout_below="@id/text3"
+        android:textColor="#CD6155"
+        android:layout_margin="10dp"
+        android:layout_toRightOf="@+id/img2"
+        android:textSize="20sp"/>
+    <ImageView
+        android:id="@+id/img3"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/location"
+        android:layout_below="@+id/img2"
+        android:layout_alignLeft="@+id/img2"
+        android:layout_alignStart="@+id/img2" />
+    <TextView
+        android:id="@+id/text6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sector 17, Chandigarh."
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:fontFamily="monospace"
+        android:layout_alignBottom="@id/img3"
+        android:layout_toRightOf="@id/img3" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:layout_margin="10dp"
+        android:text="Contact us -> +919780865066 "
+        android:autoLink="phone"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        android:textSize="22sp"
+        android:layout_below="@id/text6" />
+    </RelativeLayout>
+</ScrollView>
+
