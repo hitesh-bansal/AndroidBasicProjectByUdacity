@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.musicplayerapp.MainActivity"
+    android:orientation="vertical"
+    android:background="#000000"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        >
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="|||"
+            android:id="@+id/list"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            android:padding="20dp"
+            android:textStyle="bold"
+            android:layout_weight="0.29" />
+     <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NOW PLAYING"
+        android:textSize="20sp"
+         android:layout_weight="1"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textColor="#ffffff"
+        />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:src="@drawable/search"
+            android:paddingTop="10dp"
+            android:paddingEnd="15dp"
+            android:id="@+id/imageView2" />
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ALBUMBS"
+                android:id="@+id/albumbs"
+                android:textColor="#ffffff"
+                android:textSize="15sp"
+                android:padding="10dp"/>
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="32dp"
+                android:background="#ffffff"
+                android:layout_margin="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ALL SONGS "
+                android:id="@+id/all_songs"
+                android:textColor="#ffffff"
+                android:textSize="15sp"
+                android:padding="10dp"/>
+            <View
+                android:layout_width="2dp"
+                android:layout_height="32dp"
+                android:background="#ffffff"
+                android:layout_margin="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ARTISTS"
+                android:id="@+id/artists"
+                android:textColor="#ffffff"
+                android:textSize="15sp"
+                android:padding="10dp"/>
+        </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="we will use MEDIAPLAYER class for Music "
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:src="@drawable/music"
+        android:scaleType="centerCrop"
+        android:id="@+id/imageView" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_weight="1"
+            android:background="#0EA919"
+            android:src="@drawable/backward"/>
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/play"
+            android:background="#0EA919"
+            android:layout_weight="1"
+            android:id="@+id/play"
+            android:textAlignment="center"/>
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_weight="1"
+            android:src="@drawable/forward"
+            android:background="#0EA919"/>
+
+    </LinearLayout>
+</LinearLayout>
