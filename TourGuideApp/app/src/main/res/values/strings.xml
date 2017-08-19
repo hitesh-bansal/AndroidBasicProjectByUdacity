@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Tour Guide  App</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tourism_attraction">Tourists Attraction in And Around Delhi</string>
+    <string name="historic_building">HISTORIC BUILDINGS</string>
+    <string name="hotels">HOTELS</string>
+    <string name="restaurents">RESTAURENTS</string>
+    <string name="parks">PARKS</string>
+    <string name="one">ONE</string>
+    <string name="india_gate">INDIA GATE</string>
+    <string name="rajpath_indiagate"> Rajpath, India Gate, New Delhi</string>
+    <string name="Qutub_Minar">Qutub Minar</string>
+    <string name="maharauli_delhi">Mehrauli, New Delhi, Delhi 110030</string>
+    <string name="Akshar_Dham">AksharDham</string>
+    <string name="Noida_delhi">Noida Mor, Pandav Nagar, New Delhi</string>
+    <string name="Lotus_Temple">Lotus Temple</string>
+    <string name="lotus_delhi">Lotus Temple Rd, Shambhu Dayal Bagh, Bahapur, Shambhu Dayal Bagh, Kalkaji, New Delhi</string>
+    <string name="Birla_Temple">Birla Temple</string>
+    <string name="Mandir_delhi">Mandir Marg, Near Golmarket, New Delhi</string>
+    <string name="Roseate_House">Roseate House</string>
+    <string name="roseate_add">Roseate House New Delhi Airport ,Plot No. 10, GMR Hospitality District</string>
+    <string name="the_Leela">The Leela Palace </string>
+    <string name="leela_add">The Leela Palace New Delhi,Chanakyapuri</string>
+    <string name="The_Oberoi">The Oberoi </string>
+    <string name="oberoi_add">The Oberoi New Delhi,Dr Zakir Hussain Marg</string>
+    <string name="taj_mahal">Taj Mahal Hotel</string>
+    <string name="taj_add">Taj Mahal Hotel,1 Mansingh Road</string>
+    <string name="the_metropolitan">The Metropolitan Hotel</string>
+    <string name="metropolitian_add">The Metropolitan Hotel New Delhi,Bangla Sahib Road</string>
+    <string name="Taj_Palace">Taj Palace Hotel</string>
+    <string name="tajhotel_add">Taj Palace Hotel,Diplomatic Enclave ,New Delhi</string>
+    <string name="budda_jayanti">Buddha Jayanti Park </string>
+    <string name="vandemataram_Marg">Vandemataram Marg, Central Ridge Reserve Forest, New Delhi</string>
+    <string name="the_Lodi_Garden">The Lodi Garden </string>
+    <string name="lodi_garden">Lodhi Gardens, Lodhi Estate, New Delhi, Delhi</string>
+    <string name="japanese_Park">Japanese Park </string>
+    <string name="Swarn_Jayanti">Swarn Jayanti Park, Sector 10, Rohini, New Delhi</string>
+    <string name="national_rose">National Rose Garden</string>
+    <string name="satya_marg">Satya Marg, Chanakyapuri, New Delhi</string>
+    <string name="deer_Park">Deer Park</string>
+    <string name="new_delhi">New Delhi</string>
+    <string name="playboy_cafe">playboy cafe </string>
+    <string name="add_too">N49, 1st Floor, Below My Bar Headquarters, Connaught Circus, Connaught Place, New Delhi</string>
+    <string name="the_Darzi">The Darzi Bar and Kitchen</string>
+    <string name="CONNAUGHT_PLACE">CONNAUGHT PLACE, NEW DELHI</string>
+    <string name="the_Junction">The Junction</string>
+    <string name="HAUZ_KHAS">HAUZ KHAS , DELHI</string>
+    <string name="metro_Dhaba">Metro Dhaba</string>
+    <string name="Sec_18">Sec 18,Delhi </string>
+    <string name="mother_India">Mother India</string>
+    <string name="CONNAUGHT_NEW">CONNAUGHT PLACE, NEW DELHI</string>
+
+
+
+</resources>
+
